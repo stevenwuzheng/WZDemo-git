@@ -31,18 +31,24 @@
 
 - (void)drawLineChart {
     
+    //创建折线图表
     PNLineChart *lineChart = [[PNLineChart alloc] init];
-    lineChart.frame = self.view.bounds;
+    lineChart.frame = CGRectMake(0, 100, self.view.bounds.size.width, 300);
     [self.view addSubview:lineChart];
     
-    lineChart.chartCavanWidth = self.view.bounds.size.width;
-    lineChart.chartCavanHeight = lineChart.chartCavanWidth;
-    lineChart.yFixedValueMin = 5000;
-    lineChart.yFixedValueMax = 10000;
+    //统一设置画布宽高
+    lineChart.chartMarginTop = 25;
+    lineChart.chartMarginLeft = 25;
+    lineChart.chartMarginBottom = 25;
+    lineChart.chartMarginRight = 25;
     
-    lineChart.xLabels = @[@"2015",@"2016",@"2017",@"2018"];
+    //lineChart.chartCavanWidth = self.view.bounds.size.width - leftMargin - rightMargin;
+    //lineChart.chartCavanHeight = self.view;
     
-    NSArray *dataArr = @[@5000,@6000,@7000,@8000];
+    lineChart.xLabels = @[@"T1",@"T2",@"T3",@"T4"];
+    lineChart.yLabels = @[@"100",@"200",@"300",@"400",@"500",@"600"];
+    
+    NSArray *dataArr = @[@120.3,@250,@200,@400];
     PNLineChartData *data = [[PNLineChartData alloc] init];
     data.color = PNRed;
     data.inflexionPointStyle = PNLineChartPointStyleCircle;

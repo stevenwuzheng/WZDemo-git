@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    self.title = @"PNChart测试";
+    
     NSArray *itemNameArr = @[@"折线图",@"直方图",@"饼状图"];
     NSMutableArray *rowArrM = [NSMutableArray array];
     
