@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		825AEDE820D363040018200D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 825AEDE720D363040018200D /* AppDelegate.m */; };
+		825AEDEB20D363040018200D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825AEDEA20D363040018200D /* ViewController.m */; };
+		825AEDEE20D363040018200D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 825AEDEC20D363040018200D /* Main.storyboard */; };
+		825AEDF020D363060018200D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 825AEDEF20D363060018200D /* Assets.xcassets */; };
+		825AEDF320D363060018200D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 825AEDF120D363060018200D /* LaunchScreen.storyboard */; };
+		825AEDF620D363060018200D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 825AEDF520D363060018200D /* main.m */; };
+		83D12DB518161978FC434E07 /* libPods-Bugly-Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A9BF5155897E73032AFBA3 /* libPods-Bugly-Test.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31A9BF5155897E73032AFBA3 /* libPods-Bugly-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bugly-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		825AEDE320D363040018200D /* Bugly-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bugly-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		825AEDE620D363040018200D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		825AEDE720D363040018200D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		825AEDE920D363040018200D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		825AEDEA20D363040018200D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		825AEDED20D363040018200D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		825AEDEF20D363060018200D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		825AEDF220D363060018200D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		825AEDF420D363060018200D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		825AEDF520D363060018200D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9D0EB5A9D9647EE67FFD07C /* Pods-Bugly-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bugly-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bugly-Test/Pods-Bugly-Test.release.xcconfig"; sourceTree = "<group>"; };
+		FC105E45FC3EBC2344E459DE /* Pods-Bugly-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bugly-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bugly-Test/Pods-Bugly-Test.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		825AEDE020D363040018200D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D12DB518161978FC434E07 /* libPods-Bugly-Test.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68A9085D499CEA3865CFE702 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31A9BF5155897E73032AFBA3 /* libPods-Bugly-Test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		825AEDDA20D363040018200D = {
+			isa = PBXGroup;
+			children = (
+				825AEDE520D363040018200D /* Bugly-Test */,
+				825AEDE420D363040018200D /* Products */,
+				E0B33EED82C730E3D40149D9 /* Pods */,
+				68A9085D499CEA3865CFE702 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		825AEDE420D363040018200D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				825AEDE320D363040018200D /* Bugly-Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		825AEDE520D363040018200D /* Bugly-Test */ = {
+			isa = PBXGroup;
+			children = (
+				825AEDE620D363040018200D /* AppDelegate.h */,
+				825AEDE720D363040018200D /* AppDelegate.m */,
+				825AEDE920D363040018200D /* ViewController.h */,
+				825AEDEA20D363040018200D /* ViewController.m */,
+				825AEDEC20D363040018200D /* Main.storyboard */,
+				825AEDEF20D363060018200D /* Assets.xcassets */,
+				825AEDF120D363060018200D /* LaunchScreen.storyboard */,
+				825AEDF420D363060018200D /* Info.plist */,
+				825AEDF520D363060018200D /* main.m */,
+			);
+			path = "Bugly-Test";
+			sourceTree = "<group>";
+		};
+		E0B33EED82C730E3D40149D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC105E45FC3EBC2344E459DE /* Pods-Bugly-Test.debug.xcconfig */,
+				C9D0EB5A9D9647EE67FFD07C /* Pods-Bugly-Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		825AEDE220D363040018200D /* Bugly-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 825AEDF920D363060018200D /* Build configuration list for PBXNativeTarget "Bugly-Test" */;
+			buildPhases = (
+				970B2E4FF45A95C8330A7C14 /* [CP] Check Pods Manifest.lock */,
+				825AEDDF20D363040018200D /* Sources */,
+				825AEDE020D363040018200D /* Frameworks */,
+				825AEDE120D363040018200D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bugly-Test";
+			productName = "Bugly-Test";
+			productReference = 825AEDE320D363040018200D /* Bugly-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		825AEDDB20D363040018200D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = iot_iMac;
+				TargetAttributes = {
+					825AEDE220D363040018200D = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 825AEDDE20D363040018200D /* Build configuration list for PBXProject "Bugly-Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 825AEDDA20D363040018200D;
+			productRefGroup = 825AEDE420D363040018200D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				825AEDE220D363040018200D /* Bugly-Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		825AEDE120D363040018200D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825AEDF320D363060018200D /* LaunchScreen.storyboard in Resources */,
+				825AEDF020D363060018200D /* Assets.xcassets in Resources */,
+				825AEDEE20D363040018200D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		970B2E4FF45A95C8330A7C14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bugly-Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		825AEDDF20D363040018200D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825AEDEB20D363040018200D /* ViewController.m in Sources */,
+				825AEDF620D363060018200D /* main.m in Sources */,
+				825AEDE820D363040018200D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		825AEDEC20D363040018200D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				825AEDED20D363040018200D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		825AEDF120D363060018200D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				825AEDF220D363060018200D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		825AEDF720D363060018200D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		825AEDF820D363060018200D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		825AEDFA20D363060018200D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC105E45FC3EBC2344E459DE /* Pods-Bugly-Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bugly-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pingwang.Bugly-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		825AEDFB20D363060018200D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9D0EB5A9D9647EE67FFD07C /* Pods-Bugly-Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bugly-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pingwang.Bugly-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		825AEDDE20D363040018200D /* Build configuration list for PBXProject "Bugly-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				825AEDF720D363060018200D /* Debug */,
+				825AEDF820D363060018200D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		825AEDF920D363060018200D /* Build configuration list for PBXNativeTarget "Bugly-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				825AEDFA20D363060018200D /* Debug */,
+				825AEDFB20D363060018200D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 825AEDDB20D363040018200D /* Project object */;
+}
