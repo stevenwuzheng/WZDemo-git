@@ -117,12 +117,12 @@
 		82EBA8C320CA83B9000F4D4C /* GBPulldownMenu */ = {
 			isa = PBXGroup;
 			children = (
-				82EBA8C420CA83B9000F4D4C /* GBPulldownMenu.h */,
 				82EBA8C520CA83B9000F4D4C /* GBPulldownMenuItem.h */,
-				82EBA8C620CA83B9000F4D4C /* GBPulldownMenuCell.h */,
-				82EBA8C720CA83B9000F4D4C /* GBPulldownMenu.m */,
-				82EBA8C820CA83B9000F4D4C /* GBPulldownMenuCell.m */,
 				82EBA8C920CA83B9000F4D4C /* GBPulldownMenuItem.m */,
+				82EBA8C620CA83B9000F4D4C /* GBPulldownMenuCell.h */,
+				82EBA8C820CA83B9000F4D4C /* GBPulldownMenuCell.m */,
+				82EBA8C420CA83B9000F4D4C /* GBPulldownMenu.h */,
+				82EBA8C720CA83B9000F4D4C /* GBPulldownMenu.m */,
 			);
 			path = GBPulldownMenu;
 			sourceTree = "<group>";
