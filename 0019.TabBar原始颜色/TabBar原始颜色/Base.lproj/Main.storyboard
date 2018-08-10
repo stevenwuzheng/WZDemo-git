@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="z0W-oJ-C3j">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--首页-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="截图" translatesAutoresizingMaskIntoConstraints="NO" id="Xrq-oZ-ZcZ">
+                                <rect key="frame" x="0.0" y="20" width="375" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="esO-cy-HVL"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这是原始图片，iOS默认会对图片和文字进行render处理" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUE-S5-5pO">
+                                <rect key="frame" x="0.0" y="320" width="375" height="298"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gUE-S5-5pO" secondAttribute="bottom" id="0hL-f0-SXa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xrq-oZ-ZcZ" secondAttribute="trailing" id="6Tp-X7-7Zb"/>
+                            <constraint firstItem="Xrq-oZ-ZcZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="CYA-sE-s4Y"/>
+                            <constraint firstItem="Xrq-oZ-ZcZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MEP-Oa-yZa"/>
+                            <constraint firstItem="gUE-S5-5pO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Tl6-Ua-nup"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gUE-S5-5pO" secondAttribute="trailing" id="fJt-y6-mrT"/>
+                            <constraint firstItem="gUE-S5-5pO" firstAttribute="top" secondItem="Xrq-oZ-ZcZ" secondAttribute="bottom" id="zBX-oa-6fo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="首页" image="home" selectedImage="home_on" id="4TW-EU-B5i"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="133.5832083958021"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="zEj-KB-drS">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="z0W-oJ-C3j" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7S1-RD-PtE">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="j3h-Cg-lVo"/>
+                        <segue destination="Hid-Z1-14R" kind="relationship" relationship="viewControllers" id="BBv-ex-9z7"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fq0-p7-eEw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+        <!--设置-->
+        <scene sceneID="mpB-kQ-0pH">
+            <objects>
+                <viewController id="Hid-Z1-14R" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5XQ-KU-UZB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="dRI-nM-GD0"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="设置" image="home" selectedImage="home_on" id="qV4-dh-BS1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LiW-1Y-g7k" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="968"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="home" width="28" height="28"/>
+        <image name="home_on" width="28" height="28"/>
+        <image name="截图" width="754" height="840"/>
+    </resources>
+</document>
