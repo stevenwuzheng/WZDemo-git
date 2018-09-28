@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  国际化重复KEY测试
+
+  Created by iot_iMac on 2018/7/16.
+  Copyright © 2018年 iot_iMac. All rights reserved.
+*/
+//"神奇的旋风" = "en-HAHAHA";
+"神奇的旋风" = "en-神奇的旋风";
+"神奇的旋风" = "en-Magic Wind";
