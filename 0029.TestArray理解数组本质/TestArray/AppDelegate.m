@@ -1,13 +1,12 @@
 //
 //  AppDelegate.m
-//  Bugly-Test
+//  TestArray
 //
-//  Created by iot_iMac on 2018/6/15.
+//  Created by iot_iMac on 2018/11/27.
 //  Copyright © 2018年 iot_iMac. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import <Bugly/Bugly.h>
 
 @interface AppDelegate ()
 
@@ -17,12 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    [Bugly startWithAppId:@"a45af5093d"];
-    [Bugly setUserIdentifier:@"uerID:6161675"];
-    [Bugly setUserValue:@"1@1.com" forKey:@"email"];
-    [Bugly setUserValue:@"王五" forKey:@"currentUserName"];
-    
+    // Override point for customization after application launch.
     return YES;
 }
 
@@ -45,7 +39,7 @@
 
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
-
+    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 }
 
 

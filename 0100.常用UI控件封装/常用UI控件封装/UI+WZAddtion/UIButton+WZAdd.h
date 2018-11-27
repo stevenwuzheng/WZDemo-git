@@ -10,4 +10,6 @@
 
 @interface UIButton (WZAdd)
 
++ (UIButton *)createBtnFrame:(CGRect)frame bgColor:(UIColor *)bgColor font:(UIFont *)font norTitle:(NSString *)norTitle selTitle:(NSString *)selTitle norImage:(UIImage *)norImage selImage:(UIImage *)selImage target:(id)target action:(SEL)action  extraBlock:(void(^)(UIButton *btn))extraBlock;
+
 @end
